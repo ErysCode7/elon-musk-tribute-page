@@ -1,7 +1,7 @@
 # Technical Documentation
 
 This is one of my https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page projects. Enjoy!
-## [Frontend Documentation](https://eryscode7.github.io/frontend-documentation/)
+## [Frontend Documentation](https://eryscode7.github.io/elon-musk-tribute-page/)
 
 ## Table of contents
 
@@ -16,13 +16,13 @@ This is one of my https://www.freecodecamp.org/learn/responsive-web-design/respo
 
 ### Screenshot
 
-![](preview.JPG)
+![](screenshot.JPG)
 
 
 ### Links
 
-- Solution URL: [https://github.com/ErysCode7/frontend-documentation](https://github.com/ErysCode7/frontend-documentation)
-- Live Site URL: [https://eryscode7.github.io/frontend-documentation/](https://eryscode7.github.io/frontend-documentation/)
+- Solution URL: [https://github.com/ErysCode7/elon-musk-tribute-page](https://github.com/ErysCode7/elon-musk-tribute-page)
+- Live Site URL: [https://eryscode7.github.io/elon-musk-tribute-page/](https://https://eryscode7.github.io/elon-musk-tribute-page/)
 
 ## My process
 
@@ -32,9 +32,8 @@ This is one of my https://www.freecodecamp.org/learn/responsive-web-design/respo
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 - SASS
-- JavaScript
 
 ## Author
 
