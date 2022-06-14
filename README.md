@@ -1,7 +1,7 @@
-# Technical Documentation
+# Tribute Page
 
 This is one of my https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page projects. Enjoy!
-## [Frontend Documentation](https://eryscode7.github.io/elon-musk-tribute-page/)
+## [Elon Musk](https://eryscode7.github.io/elon-musk-tribute-page/)
 
 ## Table of contents
 
