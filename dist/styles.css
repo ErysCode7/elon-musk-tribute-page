@@ -1,0 +1,217 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f6f7f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a, a::before, a::after {
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-fd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 575.98px) {
+  .hide-for-mobile-df {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hide-for-tablets-df {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hide-for-laptops-df {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .hide-for-desktop-df {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .hide-for-mobile-mf {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hider-for-tablets-mf {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .hide-for-laptops-mf {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hide-for-desktop-mf {
+    display: none;
+  }
+}
+
+#main {
+  background-color: #000000;
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  #main {
+    height: 450px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #main {
+    height: 300px;
+  }
+}
+
+.hero {
+  background-image: url("../assets/img/hero-elon-musk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60%;
+  min-height: 650px;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .hero {
+    background-position: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero {
+    min-height: 300px;
+  }
+}
+
+.hero__contents {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 15%;
+}
+
+.hero__contents h1#title {
+  font-size: 3.75rem;
+  color: #dee4e7;
+}
+
+@media (max-width: 767.98px) {
+  .hero__contents h1#title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero__contents h1#title {
+    font-size: 2.25rem;
+  }
+}
+
+.hero__contents p.hero-description {
+  color: #dee4e7;
+}
+
+@media (max-width: 575.98px) {
+  .hero__contents p.hero-description {
+    font-size: 0.875rem;
+  }
+}
+
+.main-contents {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.main-contents h2.main-contents-title {
+  font-size: 2.25rem;
+}
+
+.main-contents h3.main-title-qoutes {
+  font-style: italic;
+}
+
+.main-contents ul.elon-life-events-list {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.main-contents ul.elon-life-events-list li {
+  list-style-type: disc;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
